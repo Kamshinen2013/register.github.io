@@ -1,0 +1,61 @@
+/* IMPORTANT WEBSITES TO USE FOR RESOURCES
+1.	W3SCHOOL
+2.	CSSTRICKS
+3.	https://paletton.com/ for color combinations in websites
+4.	MINIFY.COM TO MINIMIZE WEIGHT OF CSS
+5. Play the game flexbox froggy for learning css flexbox
+6.	caniuse.com is used for checking browser support
+7.	https://darekkay.com/flexbox-cheatsheet/ for cheats on flex box
+8.	https://thoughtbot.com/blog/transitions-and-transforms for css transitions knowledge*/
+*{
+	font-weight: bold;
+}
+body{
+	padding: 25px 80px 50px 80px;
+	background-image: url(career.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+fieldset{
+	font-family: arial; /* or use "for font families with multiple words" note also to use comma's and 
+	input more than one font famil names in case the computer does not have that particular fonts.*/
+	font-size: 16px;
+	width: 500px;
+	margin: 0px auto;
+	/*border: 5px; can be included*/
+
+}
+legend{
+	font-size: 25px;
+	text-align: center;
+	color: #DC143C;
+}
+
+form{
+	
+	color: #DC143C;
+	font-style: bold;
+	line-height: 20px;
+
+}
+ul{
+	display: flex; /* or use display : Inline-block;*/
+	text-align: center;
+	font-size: 19px
+}
+/* Cursor: Pointer; can be used at any points too*/
+li{
+	list-style: none;
+}
+
+h1 {
+	color: #DC143C;
+	text-align: center;
+	border: 5px solid black;
+	font-size: 25px;
+}
+h1:hover {
+	transform:scale(s1.1);
+}
